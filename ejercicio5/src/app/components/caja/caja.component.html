@@ -1,0 +1,10 @@
+<div class="container mt-5">
+    <input type="text" name="texto" autocomplete="off" class="form-control" [(ngModel)]="texto">
+    
+    <div *ngIf="texto != ''">
+        <div class="border border-5 border-danger mt-5">
+            {{texto}}
+        </div>
+    </div>
+    
+  </div>

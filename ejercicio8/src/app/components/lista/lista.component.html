@@ -1,0 +1,14 @@
+<table>
+    <thead>
+        <th>Nombre Completo</th>
+        <th>Salario</th>
+        <th>Antiguedad</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let empleado of empleados">
+            <td>{{empleado.nombreCompleto}}</td>
+            <td>{{empleado.salario}}<strong>€</strong> </td>
+            <td>{{empleado.antiguedad}} años</td>
+        </tr>
+    </tbody>
+</table>
